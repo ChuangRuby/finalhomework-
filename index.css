@@ -1,0 +1,272 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    margin:0 auto;
+    width:1024px;
+}
+
+
+.list{
+    display:flex;
+    background-color:#f6f6f6;
+    justify-content: flex-end;
+}
+
+.list li{
+    padding:0.3rem;
+}
+
+.list img{
+  vertical-align:text-top;
+}
+
+.list li:nth-child(1) a{
+  color:#4460a0;
+  text-decoration: none;
+
+}
+
+.list li:nth-child(2) a{
+  color:#00aaec;
+  text-decoration: none;
+}
+
+
+.logoArea{
+    display:flex;
+    justify-content: space-between;
+}
+
+.logoArea h1{
+  padding-top:0.5rem;
+
+}
+
+.logoArea h1 a{
+  width: 170px;
+  height: 40px;
+  background-image: url(/images/logo.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  text-indent: 101%;
+  white-space: nowrap;
+  
+}
+  
+  .logoUl{
+   display: flex;
+   justify-content: center;
+  }
+  
+  .logoArea li{
+    padding: 0.5rem;
+  }
+  
+  .logoUl a{
+    color:#00ca9d;
+    font-weight:600;
+    text-decoration:none;
+    display:block;
+  }
+
+  .logoArea li:hover{
+    border-bottom: 3px solid #00ca9d;
+}
+
+.imageArea{
+  height:345px;
+  color:#FFF;
+  background-image: url(/images/image_black.png);
+  background-size: cover;
+  justify-items: center;
+  padding-top:5rem;
+  box-sizing: border-box;
+
+}
+
+.imageArea h2{
+  background:rgba(0,0,0,0.3);
+  margin:auto 0;
+  text-align: left;
+  font-size: 2rem;
+  padding:3rem 0rem 3rem 1rem;
+  
+
+}
+
+.contentOne{
+  display: flex;
+  justify-content: space-around;
+  margin-top:3rem;
+}
+
+.contentOne div{
+  text-align: center;
+  box-shadow: 1px 5px 6px #d6d6d6;
+  padding:0.5rem;
+  margin:1rem;
+  width:30%;
+}
+
+.contentOne div:nth-child(3) p{
+  text-align: left;
+}
+
+
+h4{
+  margin-top: 1rem;
+  font-weight: 800;
+}
+
+.contentOne p{
+ padding:0.5rem;
+}
+
+.contentTwo{
+  padding:3rem;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+table{
+  margin: auto;
+  text-align: left;
+  margin-top:2rem;
+  
+}
+
+
+th{
+  width:15rem;
+  font-weight: 800;
+  background: #f7f7f7;
+}
+
+
+tr{
+  border-top:1px solid #dddddd;
+  border-bottom:1px solid #dddddd;
+  line-height: 2rem;
+}
+
+
+.changeColor{
+  color:#00a67d;
+}
+
+.formArea{
+  background: linear-gradient(#006c50,#009670);
+  color:#FFF;
+  text-align: center;
+  padding:2.5rem;
+}
+
+h5{
+  font-size: 1.5rem;
+
+}
+
+form{
+  margin-top:2rem;
+  position: relative;
+  text-align: right;
+}
+
+textarea{
+  width:30rem;
+  height: 100%;
+  overflow: hidden;
+  resize : none;
+  position: absolute;
+  left: 0;
+}
+
+label{
+  margin-right: 22rem;
+}
+
+.inputStyle{
+  width: 40%;
+  margin-left: 22rem;
+  margin-top:0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.buttomStyle{
+ 
+  background: #00cc99;
+  border-style: none;
+  border-radius: 2px;
+  color:#FFF;
+  padding:0.3rem;
+  width:3.5rem;
+  right: 0;
+  margin-left: 43rem;
+}
+
+.bottom{
+  display: flex;
+  padding:1rem;
+  justify-content: space-between;
+  height:5rem
+}
+
+.bottom img{
+  height: 50%;
+}
+
+span{
+  color:#e12480;
+}
